@@ -13,4 +13,6 @@
 
 Route::get('contact', 'PagesController@getContact');
 Route::get('about', 'PagesController@getAbout');
+Route::get('services', 'PagesController@getServices');
+Route::get('packages', 'PagesController@getPackages');
 Route::get('/', 'PagesController@getIndex');

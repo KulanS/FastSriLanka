@@ -17,6 +17,14 @@
             
             return view('pages/about')->withAddress($address)->withPhone($phone)->withEmail($email);
         }
+        
+        public function getPackages(){
+            return view('pages/packages');
+        }
+        
+        public function getServices(){
+            return view('pages/services');
+        }
     }
         
 ?>
