@@ -1,4 +1,6 @@
 @extends('main')
+
+@section('title', 'Welcome to FAST Sri Lanka')
           
     @section('content')   
 
