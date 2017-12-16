@@ -16,3 +16,4 @@ Route::get('about', 'PagesController@getAbout');
 Route::get('services', 'PagesController@getServices');
 Route::get('packages', 'PagesController@getPackages');
 Route::get('/', 'PagesController@getIndex');
+Route::get('/send', 'EmailController@sendEmail');
